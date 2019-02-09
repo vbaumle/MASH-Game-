@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-  background: #000000 url("spacebackground.jpg") no-repeat center;
+  background: #000000 url("spacebackground.jpg") repeat center;
 }
 
 h1 {
@@ -38,7 +38,6 @@ button {
   background-color: #434242;
   color: #7B91C3;
   border: 2px solid #0B1C9F;
-	padding: 15px; 15px; 15px; 15px;
  
 }
 
