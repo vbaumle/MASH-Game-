@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background: #000000 url("spacebackground.jpg") no-repeat center;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+
+
+p { text-align: center; color: #A7A5A5;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+		width: 500px;
+  margin: auto;
+  border: 1px solid #0D4E58;
+}
+
+h4 {color:#19157A; border-color:#A1CCE7;
+	width: 500px;
+  margin: auto;
+	border-bottom-color: #125358;
+	border-bottom-style: solid;
+	border-width: medium;
+	background-color: #3F3E3E;
+	background-size: contain;
+  padding: 15px;
+  border: 4px solid gray;
+
+}
+
+button {
+  background-color: #434242;
+  color: #7B91C3;
+  border: 2px solid #0B1C9F;
+	padding: 15px; 15px; 15px; 15px;
+ 
+}
+
+submit-button { 
+	padding-left: 300px;
+	
+	
+}
