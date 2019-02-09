@@ -6,43 +6,49 @@ body {
   line-height: 1.65em;
   margin: 0 auto;
   max-width: 960px;
+	max-height: 768px;
   padding: 40px 10px;  
 }
 
 
 /* Heading Styles */
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: #919192;
   text-align: center;
+}
+.header { 
+	background-image: url(header.jpg);
+	max-width: inherit 960px;
+	max-width: inherit 300px;	
+	color: #A29F9F;
 }
 
 
 /* Game Directions */
 .description {
   text-align: center;
-  margin: 80px auto 40px;
+  margin: 72px auto 40px;
 }
 
 
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
-    background-image: url("button.jpg");
+	background-image: url("button.jpg"); background-repeat: no-repeat; 
     border: 3px solid #2F2F2F;
     border-radius: 4px;
-    color: #3F3F3F;
+    color: #ACABAB;
     cursor: pointer;
     display: block;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 0 auto 60px;
+    margin: 0 auto 50px;
     padding: 1em 3em;
     text-align: center;
 }
 
 .bucket {
   display: inline-block;
-  margin-bottom: 40px;
   width: 100%;
 }
 
@@ -55,19 +61,19 @@ h1 {
 }
 
 .choice-bucket label {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 13px;
   margin: 15px 4%;
 }
 
 .choice-bucket input {
   border: 0;
-  border-radius: 1px;
+  border-radius: .25px;
   color: #713e94;
-  font-size: 14px;
+  font-size: 15px;
   margin: 15px 4%;
   outline: 0;
-  padding: 16px 0;
+  padding: 12px 0;
   text-indent: 10px;
   width: 92%;  
 }
@@ -77,9 +83,9 @@ h1 {
 }
 
 .highlight {
-  font-size: 18px;
-  line-height: 24px;
-  margin-left: 30px;
+  font-size: 15px;
+  line-height: 16px;
+  margin-left: 20px;
   opacity: .8;
 }
 
@@ -87,28 +93,28 @@ h1 {
 
 /* Answer Div */
 #answers {
-  margin: 60px 0;
+  margin: 30px 0;
   background: #4F4F4F;
-  border-radius: 6px;
-  color: #713e94;
+  border-radius: 2px;
+  color: #331C43;
   transition: 1s linear;
 }
 
 #answers p {
   max-width: 760px;
   margin: auto;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 #answers p span {
   font-weight: bold;
 }
-
-
 .hide {
   opacity: 0;
   height: 0;
 }
+
+
 
 .show {
   opacity: 1;
