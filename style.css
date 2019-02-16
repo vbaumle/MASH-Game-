@@ -43,18 +43,18 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     margin: 0 auto 50px;
-    padding: 1em 3em;
+    padding: 1em 2em;
     text-align: center;
 }
 
 .bucket {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
 .choice-bucket {
   display: inline-block;
-  float: left;
+  float: right;
   margin: 10;
   padding: 10;
   width: 33.333333%;
@@ -72,7 +72,7 @@ h1 {
   color: #713e94;
   font-size: 15px;
   margin: 15px 4%;
-  outline: 0;
+  outline: #12F301;
   padding: 12px 0;
   text-indent: 10px;
   width: 92%;  
