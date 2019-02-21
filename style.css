@@ -16,6 +16,7 @@ h1 {
   font-size: 40px;
   color: #919192;
   text-align: center;
+	padding-top: 4px;
 }
 .header { 
 	background-image: url(header.jpg);
